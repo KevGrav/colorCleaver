@@ -3,13 +3,13 @@
  ******************/
 function colorCombinator(color1, color2){
   if((color1 === 'blue' && color2 === 'red') || (color1 === 'red' && color2 === 'blue')){
-    console.log('purple')
+    return 'purple'
   } else if((color1 === 'blue' && color2 === 'yellow') || (color1 === 'yellow' && color2 === 'blue')){
-    console.log('green')
+    return 'green'
   } else if((color1 === 'yellow' && color2 === 'red') || (color1 === 'red' && color2 === 'yellow')){
-    console.log('orange')
+    return 'orange'
   } else {
-    console.log('error')
+    return 'error'
   }
 }
 

@@ -3,13 +3,13 @@
  ******************/
 function colorDeconstructor(color1){
   if(color1 === 'purple'){
-    console.log('red and blue')
+    return 'red and blue'
   } else if(color1 === 'orange'){
-    console.log('red and yellow')
+    return 'red and yellow'
   } else if(color1 === 'green'){
-    console.log('blue and yellow')
+    return 'blue and yellow'
   } else {
-    console.log('error')
+    return 'error'
   }
 }
 
