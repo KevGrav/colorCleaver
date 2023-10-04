@@ -9,14 +9,14 @@ const getInput = require("./get-input.js");
 let color1 = getInput(1)
 let color2 = getInput(2)
 // Is there 2 colors?
-if(color2 .length >0) {
+if(color2) {
     if(isValidPrimary){
         return(colorCombinator(color1, color2))
       } else { // Is there one color?
-        if(color1.length >0) {
+        if(color1 >0) {
             if(isValidSecondary){
                 return(colorDeconstructor(color1))
-        } else {
+            } else {
             console.log('We need at least one color')        
         } 
       }
